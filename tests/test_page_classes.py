@@ -1,6 +1,7 @@
 from pages.base_page import BasePage
 from pages.emag_page import EmagProductPage
 from pages.altex_page import AltexProductPage
+from pages.carrefour_page import CarrefourProductPage
 
 
 def test_base_page_site_name_is_none():
@@ -21,3 +22,11 @@ def test_emag_inherits_from_base_page():
 
 def test_altex_inherits_from_base_page():
     assert issubclass(AltexProductPage, BasePage)
+
+
+def test_carrefour_page_site_name():
+    assert CarrefourProductPage.site_name == "Carrefour"
+
+
+def test_carrefour_inherits_from_base_page():
+    assert issubclass(CarrefourProductPage, BasePage)
