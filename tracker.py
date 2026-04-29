@@ -27,6 +27,9 @@ TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN")
 TELEGRAM_CHAT_ID = os.getenv("TELEGRAM_CHAT_ID")
 PRICE_HISTORY_FILE = "last_price.json"
 
+def parse_price(raw_text):
+    return float(re.sub(r'[^\d,]', '', raw_text).replace(',', '.'))
+
 def get_prices(url, retries=3):
     for attempt in range(retries):
         try:
@@ -38,14 +41,14 @@ def get_prices(url, retries=3):
                 page.wait_for_timeout(3000)
 
                 current_price_raw = page.locator("[data-test='main-price']").first.inner_text()
-                current_price = float(re.sub(r'[^\d,]', '', current_price_raw).replace(',', '.'))
+                current_price = parse_price(current_price_raw)
 
                 original_price = None
                 pricing_block = page.locator(".product-highlight-price, .pricing-block").first
                 strikethrough = pricing_block.locator("s")
                 if strikethrough.count() > 0:
                     original_price_raw = strikethrough.first.inner_text()
-                    original_price = float(re.sub(r'[^\d,]', '', original_price_raw).replace(',', '.'))
+                    original_price = parse_price(original_price_raw)
                     if original_price < current_price:
                         original_price = None
 
