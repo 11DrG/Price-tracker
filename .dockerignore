@@ -1,0 +1,14 @@
+.env
+.git
+.github
+.claude
+.vscode
+__pycache__
+*.pyc
+*.pyo
+.pytest_cache
+venv/
+.venv/
+last_price.json
+price_history.csv
+lowest_price.json

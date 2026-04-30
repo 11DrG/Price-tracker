@@ -1,0 +1,10 @@
+services:
+  price-tracker:
+    build: .
+    env_file: .env
+    volumes:
+      - ./products.json:/app/products.json
+      - price-data:/data
+
+volumes:
+  price-data:

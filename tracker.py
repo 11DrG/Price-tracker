@@ -26,9 +26,10 @@ with open(PRODUCTS_FILE, "r") as f:
 
 TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN")
 TELEGRAM_CHAT_ID = os.getenv("TELEGRAM_CHAT_ID")
-PRICE_HISTORY_FILE = "last_price.json"
-LOWEST_PRICE_FILE = "lowest_price.json"
-PRICE_LOG_FILE = "price_history.csv"
+DATA_DIR = os.getenv("DATA_DIR", ".")
+PRICE_HISTORY_FILE = os.path.join(DATA_DIR, "last_price.json")
+LOWEST_PRICE_FILE = os.path.join(DATA_DIR, "lowest_price.json")
+PRICE_LOG_FILE = os.path.join(DATA_DIR, "price_history.csv")
 
 
 def get_prices(url, browser, retries=3):
@@ -155,7 +156,7 @@ if __name__ == "__main__":
 
     history = load_price_history()
     lowest = load_lowest_prices()
-    headless = os.getenv("GITHUB_ACTIONS") == "true"
+    headless = os.getenv("SHOW_BROWSER", "false").lower() != "true"
 
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=headless)
