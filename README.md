@@ -1,6 +1,6 @@
 # PriceTracker
 
-![PriceTracker](https://github.com/11DrG/Price-tracker/actions/workflows/price_tracker.yml/badge.svg)
+![PriceTracker](https://github.com/MerlaSilviuAlexandru/Price-tracker/actions/workflows/price_tracker.yml/badge.svg)
 
 A Python automation tool that monitors product prices across multiple e-commerce sites and sends a Telegram notification whenever a price changes.
 
