@@ -16,16 +16,16 @@ def test_altex_page_site_name():
     assert AltexProductPage.site_name == "Altex"
 
 
+def test_carrefour_page_site_name():
+    assert CarrefourProductPage.site_name == "Carrefour"
+
+
 def test_emag_inherits_from_base_page():
     assert issubclass(EmagProductPage, BasePage)
 
 
 def test_altex_inherits_from_base_page():
     assert issubclass(AltexProductPage, BasePage)
-
-
-def test_carrefour_page_site_name():
-    assert CarrefourProductPage.site_name == "Carrefour"
 
 
 def test_carrefour_inherits_from_base_page():
