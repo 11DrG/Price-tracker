@@ -169,52 +169,25 @@ if __name__ == "__main__":
     headless = os.getenv("SHOW_BROWSER", "false").lower() != "true"
 
     with sync_playwright() as p:
-        chromium = p.chromium.launch(
-            headless=headless,
-            args=[
-                "--disable-http2",
-                "--disable-blink-features=AutomationControlled",
-            ],
-        )
         firefox = p.firefox.launch(headless=headless)
-        context = chromium.new_context(
-            viewport={"width": 1366, "height": 768},
-            locale="ro-RO",
-            timezone_id="Europe/Bucharest",
-            user_agent=(
-                "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
-                "AppleWebKit/537.36 (KHTML, like Gecko) "
-                "Chrome/124.0.0.0 Safari/537.36"
-            ),
-        )
-        context.add_init_script(
-            "Object.defineProperty(navigator, 'webdriver', {get: () => undefined})"
-        )
         for product in PRODUCTS:
+            ctx = firefox.new_context(
+                viewport={"width": 1366, "height": 768},
+                locale="ro-RO",
+                timezone_id="Europe/Bucharest",
+            )
             try:
-                if "altex.ro" in product["url"]:
-                    ctx = firefox.new_context(
-                        viewport={"width": 1366, "height": 768},
-                        locale="ro-RO",
-                        timezone_id="Europe/Bucharest",
-                    )
-                else:
-                    ctx = context
                 current, original, site_name = get_prices(product["url"], ctx)
-                if ctx is not context:
-                    ctx.close()
                 check_deal(product, current, original, site_name, history, lowest, dry_run=args.dry_run)
             except Exception as e:
-                if ctx is not context:
-                    ctx.close()
                 logger.error(f"Error tracking {product['name']}: {e}")
                 if not args.dry_run:
                     try:
                         send_telegram_message(f"⚠️ Failed to scrape {product['name']} after 3 retries.\nError: {e}")
                     except Exception as telegram_error:
                         logger.error(f"Failed to send error notification: {telegram_error}")
-        context.close()
-        chromium.close()
+            finally:
+                ctx.close()
         firefox.close()
 
     if not args.dry_run:
