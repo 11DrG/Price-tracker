@@ -11,11 +11,11 @@ _HEADERS = {
     )
 }
 
-_PROXIES = (
-    {"http": "socks5://127.0.0.1:9050", "https": "socks5://127.0.0.1:9050"}
-    if os.getenv("CI")
-    else {}
-)
+def _build_url(url):
+    api_key = os.getenv("SCRAPER_API_KEY")
+    if api_key:
+        return f"http://api.scraperapi.com?api_key={api_key}&url={url}"
+    return url
 
 
 class EmagProductPage(BasePage):
@@ -26,7 +26,7 @@ class EmagProductPage(BasePage):
         self._html = None
 
     def open(self, url):
-        response = requests.get(url, headers=_HEADERS, proxies=_PROXIES, timeout=30)
+        response = requests.get(_build_url(url), headers=_HEADERS, timeout=60)
         response.raise_for_status()
         self._html = response.text
 
