@@ -21,6 +21,8 @@ logger = logging.getLogger(__name__)
 
 PRODUCTS_FILE = "products.json"
 
+DEFAULT_RETRIES = 5
+
 with open(PRODUCTS_FILE, "r") as f:
     PRODUCTS = json.load(f)
 
@@ -32,7 +34,7 @@ LOWEST_PRICE_FILE = os.path.join(DATA_DIR, "lowest_price.json")
 PRICE_LOG_FILE = os.path.join(DATA_DIR, "price_history.csv")
 
 
-def get_prices(url, context, retries=3):
+def get_prices(url, context, retries=DEFAULT_RETRIES):
     for attempt in range(retries):
         page = None
         product_page = None
@@ -47,7 +49,7 @@ def get_prices(url, context, retries=3):
             return current_price, original_price, site_name
 
         except Exception as e:
-            logger.warning(f"Attempt {attempt + 1} of {retries} failed: {e}")
+            logger.warning(f"Attempt {attempt + 1} of {retries} failed for {url}: {e}")
             if attempt + 1 == retries:
                 if product_page is not None:
                     screenshot_path = product_page.screenshot_on_failure(url)
@@ -58,8 +60,9 @@ def get_prices(url, context, retries=3):
                 raise
             if page is not None:
                 page.close()
-            logger.info("Retrying in 5 seconds...")
-            time.sleep(5)
+            backoff = 5 * (2 ** attempt)
+            logger.info(f"Retrying in {backoff} seconds...")
+            time.sleep(backoff)
 
 
 def send_telegram_message(message):
@@ -170,11 +173,17 @@ if __name__ == "__main__":
 
     with sync_playwright() as p:
         firefox = p.firefox.launch(headless=headless)
-        for product in PRODUCTS:
+        emag_products = [p for p in PRODUCTS if "emag.ro" in p.get("url", "")]
+        logger.info(f"Found {len(emag_products)} eMAG products to process (filtered from {len(PRODUCTS)} total).")
+        for product in emag_products:
             ctx = firefox.new_context(
                 viewport={"width": 1366, "height": 768},
                 locale="ro-RO",
                 timezone_id="Europe/Bucharest",
+                user_agent=("Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+                            "AppleWebKit/537.36 (KHTML, like Gecko) "
+                            "Chrome/115.0.0.0 Safari/537.36"),
+                ignore_https_errors=True,
             )
             try:
                 current, original, site_name = get_prices(product["url"], ctx)
@@ -183,7 +192,7 @@ if __name__ == "__main__":
                 logger.error(f"Error tracking {product['name']}: {e}")
                 if not args.dry_run:
                     try:
-                        send_telegram_message(f"⚠️ Failed to scrape {product['name']} after 3 retries.\nError: {e}")
+                        send_telegram_message(f"⚠️ Failed to scrape {product['name']} after {DEFAULT_RETRIES} retries.\nError: {e}")
                     except Exception as telegram_error:
                         logger.error(f"Failed to send error notification: {telegram_error}")
             finally:

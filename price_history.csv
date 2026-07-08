@@ -1,78 +1,276 @@
 timestamp,product,site,old_price,new_price
 2026-04-30 08:39:10,Huggies Pure Wet Wipes 10x56buc,eMAG,59.0,49.99
-2026-05-01 08:05:36,Pampers Pants Mega Box nr 5 96buc (Altex),Altex,139.15,151.25
-2026-05-01 13:00:28,Pampers Active Baby Pants Size 5 164buc,eMAG,279.98,326.48
-2026-05-02 02:01:13,Pampers Pants Mega Box nr 5 96buc (Altex),Altex,151.25,188.0
-2026-05-02 18:46:20,Pampers Active Baby Pants Size 5 164buc,eMAG,326.48,299.99
-2026-05-03 02:04:50,Pampers Active Baby Pants Size 5 164buc,eMAG,299.99,289.99
-2026-05-04 02:04:50,Braun ThermoScan 7 IRT6520B,eMAG,300.93,301.0
-2026-05-04 08:21:02,Pampers Active Baby Pants Size 5 164buc,eMAG,289.99,229.99
-2026-05-05 19:12:33,Pampers Active Baby Pants Size 5 164buc,eMAG,229.99,199.99
-2026-05-06 13:49:48,"Servetele umede HUGGIES Natural Care, 10 pachete, 560 buc(Altex)",Altex,58.95,69.9
-2026-05-06 19:26:54,Pampers Active Baby Pants Size 5 164buc,eMAG,199.99,172.49
-2026-05-06 19:26:59,Huggies Pure Wet Wipes 10x56buc,eMAG,49.99,63.23
-2026-05-07 02:06:42,Huggies Pure Wet Wipes 10x56buc,eMAG,63.23,66.09
-2026-05-07 08:21:21,Huggies Pure Wet Wipes 10x56buc,eMAG,66.09,66.55
-2026-05-07 13:50:42,Huggies Pure Wet Wipes 10x56buc,eMAG,66.55,66.09
-2026-05-08 19:07:35,Huggies Pure Wet Wipes 10x56buc,eMAG,66.09,49.99
-2026-05-10 13:00:12,Pampers Active Baby Pants Size 5 164buc,eMAG,172.49,279.99
-2026-05-11 02:26:37,Pampers Active Baby Pants Size 5 164buc,eMAG,279.99,289.99
-2026-05-11 09:02:28,Pampers Pants Mega Box nr 5 96buc (Altex),Altex,188.0,151.25
-2026-05-11 14:32:44,Pampers Pants Mega Box nr 5 96buc (Altex),Altex,151.25,188.0
-2026-05-11 19:30:03,Pampers Active Baby Pants Size 5 164buc,eMAG,289.99,258.27
-2026-05-11 19:30:09,Huggies Pure Wet Wipes 10x56buc,eMAG,49.99,60.49
-2026-05-12 08:29:57,Pampers Active Baby Pants Size 5 164buc,eMAG,258.27,266.2
-2026-05-12 08:30:04,Huggies Pure Wet Wipes 10x56buc,eMAG,60.49,49.99
-2026-05-12 14:01:09,Pampers Active Baby Pants Size 5 164buc,eMAG,266.2,266.19
-2026-05-13 08:38:18,Pampers Active Baby Pants Size 5 164buc,eMAG,266.19,249.99
-2026-05-15 08:44:14,Pampers Pants Mega Box nr 5 96buc (Altex),Altex,188.0,151.25
-2026-05-15 13:47:07,Pampers Active Baby Pants Size 5 164buc,eMAG,249.99,249.98
-2026-05-16 07:53:09,Pampers Pants Mega Box nr 5 96buc (Altex),Altex,151.25,188.0
-2026-05-16 13:03:19,Pampers Pants Mega Box nr 5 96buc (Altex),Altex,188.0,151.25
-2026-05-19 19:45:33,Braun ThermoScan 7 IRT6520B,eMAG,301.0,290.58
-2026-05-20 02:34:08,Braun ThermoScan 7 IRT6520B,eMAG,290.58,301.0
-2026-05-21 02:34:46,Pampers Active Baby Pants Size 5 164buc,eMAG,249.98,249.99
-2026-05-22 08:51:44,Pampers Active Baby Pants Size 5 164buc,eMAG,249.99,199.99
-2026-05-23 02:13:34,Pampers Pants Junior 5 152buc (Carrefour),Carrefour,229.9,234.15
-2026-05-25 09:52:52,Braun ThermoScan 7 IRT6520B,eMAG,301.0,300.62
-2026-05-27 14:59:11,Huggies Pure Wet Wipes 10x56buc,eMAG,49.99,64.99
-2026-05-28 20:08:39,Huggies Pure Wet Wipes 10x56buc,eMAG,64.99,61.56
-2026-05-29 09:39:10,Huggies Pure Wet Wipes 10x56buc,eMAG,61.56,49.99
-2026-05-29 14:45:18,Huggies Pure Wet Wipes 10x56buc,eMAG,49.99,62.92
-2026-05-29 20:11:13,Huggies Pure Wet Wipes 10x56buc,eMAG,62.92,62.27
-2026-05-30 02:15:09,Huggies Pure Wet Wipes 10x56buc,eMAG,62.27,49.99
-2026-05-30 08:18:59,Huggies Pure Wet Wipes 10x56buc,eMAG,49.99,58.89
-2026-05-31 19:06:09,Braun ThermoScan 7 IRT6520B,eMAG,300.62,347.27
-2026-06-02 16:05:42,Pampers Active Baby Pants Size 5 164buc,eMAG,199.99,219.99
-2026-06-02 16:05:46,Huggies Pure Wet Wipes 10x56buc,eMAG,58.89,52.99
-2026-06-02 16:05:53,Braun ThermoScan 7 IRT6520B,eMAG,347.27,282.5
-2026-06-02 20:38:06,Braun ThermoScan 7 IRT6520B,eMAG,282.5,347.27
-2026-06-11 10:10:16,Pampers Pants Mega Box nr 5 96buc (Altex),Altex,151.25,188.0
-2026-06-11 15:39:36,Pampers Active Baby Pants Size 5 164buc,eMAG,219.99,249.99
-2026-06-13 02:37:40,Pampers Active Baby Pants Size 5 164buc,eMAG,249.99,229.99
-2026-06-18 10:18:57,Pampers Active Baby Pants Size 5 164buc,eMAG,229.99,249.99
-2026-06-18 14:51:01,Pampers Active Baby Pants Size 5 164buc,eMAG,249.99,229.99
-2026-06-19 10:15:20,Pampers Pants Mega Box nr 5 96buc (Altex),Altex,188.0,151.25
-2026-06-21 09:38:50,Pampers Active Baby Pants Size 5 164buc,eMAG,229.99,319.99
-2026-06-22 11:38:09,Pampers Active Baby Pants Size 5 164buc,eMAG,319.99,239.99
-2026-06-29 02:42:02,Pampers Active Baby Pants Size 5 164buc,eMAG,239.99,319.99
-2026-06-29 10:26:24,Braun ThermoScan 7 IRT6520B,eMAG,347.27,296.56
-2026-06-29 15:33:15,Pampers Active Baby Pants Size 5 164buc,eMAG,319.99,268.14
-2026-06-29 15:33:19,Braun ThermoScan 7 IRT6520B,eMAG,296.56,347.27
-2026-06-29 19:45:45,Pampers Active Baby Pants Size 5 164buc,eMAG,268.14,319.99
-2026-06-29 19:45:55,Braun ThermoScan 7 IRT6520B,eMAG,347.27,332.9
-2026-06-30 02:36:20,Braun ThermoScan 7 IRT6520B,eMAG,332.9,347.27
-2026-06-30 08:58:58,Braun ThermoScan 7 IRT6520B,eMAG,347.27,296.66
-2026-06-30 14:00:27,Braun ThermoScan 7 IRT6520B,eMAG,296.66,332.9
-2026-06-30 19:44:53,Braun ThermoScan 7 IRT6520B,eMAG,332.9,347.27
-2026-07-01 02:43:22,Huggies Pure Wet Wipes 10x56buc,eMAG,52.99,59.1
-2026-07-01 09:32:21,Huggies Pure Wet Wipes 10x56buc,eMAG,59.1,52.99
-2026-07-01 14:13:17,Pampers Active Baby Pants Size 5 164buc,eMAG,319.99,296.99
-2026-07-01 19:41:56,Pampers Active Baby Pants Size 5 164buc,eMAG,296.99,319.99
-2026-07-02 08:43:54,Pampers Active Baby Pants Size 5 164buc,eMAG,319.99,295.99
-2026-07-02 13:41:50,Pampers Active Baby Pants Size 5 164buc,eMAG,295.99,319.99
-2026-07-03 08:52:05,Pampers Active Baby Pants Size 5 164buc,eMAG,319.99,279.99
-2026-07-04 13:04:04,Braun ThermoScan 7 IRT6520B,eMAG,347.27,276.94
-2026-07-06 02:25:20,Pampers Active Baby Pants Size 5 164buc,eMAG,279.99,219.99
-2026-07-07 09:27:06,Braun ThermoScan 7 IRT6520B,eMAG,276.94,277.04
-2026-07-08 08:11:29,Braun ThermoScan 7 IRT6520B,eMAG,277.04,277.45
+=======
+2026-04-30 15:00:28,Test Product,eMAG,100.0,80.0
+2026-04-30 15:00:28,Test Product,eMAG,100.0,120.0
+2026-04-30 15:00:28,Test Product,eMAG,100.0,120.0
+2026-04-30 15:00:28,Test Product,eMAG,100.0,80.0
+2026-04-30 15:00:28,Test Product,eMAG,100.0,80.0
+2026-04-30 15:00:28,Test Product,eMAG,100.0,80.0
+2026-04-30 15:00:28,Test Product,eMAG,,100.0
+2026-04-30 15:00:28,Test Product,eMAG,,100.0
+2026-04-30 15:00:28,Test Product,eMAG,100.0,80.0
+2026-04-30 15:00:28,Test Product,eMAG,100.0,80.0
+2026-04-30 15:00:28,Test Product,Altex,100.0,80.0
+2026-04-30 15:00:28,Test Product,eMAG,100.0,80.0
+2026-04-30 15:00:28,Test Product,eMAG,100.0,80.0
+2026-04-30 15:00:28,Test Product,eMAG,100.0,80.0
+2026-04-30 15:00:28,Test Product,eMAG,100.0,80.0
+2026-04-30 15:00:28,Test Product,eMAG,100.0,80.0
+2026-04-30 15:07:56,Test Product,eMAG,100.0,80.0
+2026-04-30 15:07:56,Test Product,eMAG,100.0,120.0
+2026-04-30 15:07:56,Test Product,eMAG,100.0,120.0
+2026-04-30 15:07:56,Test Product,eMAG,100.0,80.0
+2026-04-30 15:07:56,Test Product,eMAG,100.0,80.0
+2026-04-30 15:07:56,Test Product,eMAG,100.0,80.0
+2026-04-30 15:07:56,Test Product,eMAG,,100.0
+2026-04-30 15:07:56,Test Product,eMAG,,100.0
+2026-04-30 15:07:56,Test Product,eMAG,100.0,80.0
+2026-04-30 15:07:56,Test Product,eMAG,100.0,80.0
+2026-04-30 15:07:56,Test Product,Altex,100.0,80.0
+2026-04-30 15:07:56,Test Product,eMAG,100.0,80.0
+2026-04-30 15:07:56,Test Product,eMAG,100.0,80.0
+2026-04-30 15:07:56,Test Product,eMAG,100.0,80.0
+2026-04-30 15:07:56,Test Product,eMAG,100.0,80.0
+2026-04-30 15:07:56,Test Product,eMAG,100.0,80.0
+2026-04-30 15:18:01,Test Product,eMAG,100.0,80.0
+2026-04-30 15:18:01,Test Product,eMAG,100.0,120.0
+2026-04-30 15:18:01,Test Product,eMAG,100.0,120.0
+2026-04-30 15:18:01,Test Product,eMAG,100.0,80.0
+2026-04-30 15:18:01,Test Product,eMAG,100.0,80.0
+2026-04-30 15:18:01,Test Product,eMAG,100.0,80.0
+2026-04-30 15:18:01,Test Product,eMAG,,100.0
+2026-04-30 15:18:01,Test Product,eMAG,,100.0
+2026-04-30 15:18:01,Test Product,eMAG,100.0,80.0
+2026-04-30 15:18:01,Test Product,eMAG,100.0,80.0
+2026-04-30 15:18:01,Test Product,Altex,100.0,80.0
+2026-04-30 15:18:01,Test Product,eMAG,100.0,80.0
+2026-04-30 15:18:01,Test Product,eMAG,100.0,80.0
+2026-04-30 15:18:01,Test Product,eMAG,100.0,80.0
+2026-04-30 15:18:01,Test Product,eMAG,100.0,80.0
+2026-04-30 15:18:01,Test Product,eMAG,100.0,80.0
+2026-07-08 14:09:07,Test Product,eMAG,100.0,80.0
+2026-07-08 14:09:07,Test Product,eMAG,100.0,120.0
+2026-07-08 14:09:07,Test Product,eMAG,100.0,120.0
+2026-07-08 14:09:07,Test Product,eMAG,100.0,80.0
+2026-07-08 14:09:07,Test Product,eMAG,100.0,80.0
+2026-07-08 14:09:07,Test Product,eMAG,100.0,80.0
+2026-07-08 14:09:07,Test Product,eMAG,,100.0
+2026-07-08 14:09:07,Test Product,eMAG,,100.0
+2026-07-08 14:09:07,Test Product,eMAG,100.0,80.0
+2026-07-08 14:09:07,Test Product,eMAG,100.0,80.0
+2026-07-08 14:09:07,Test Product,Altex,100.0,80.0
+2026-07-08 14:09:07,Test Product,eMAG,100.0,80.0
+2026-07-08 14:09:07,Test Product,eMAG,100.0,80.0
+2026-07-08 14:09:07,Test Product,eMAG,100.0,80.0
+2026-07-08 14:09:07,Test Product,eMAG,100.0,80.0
+2026-07-08 14:09:07,Test Product,eMAG,100.0,80.0
+2026-07-08 14:10:50,Test Product,eMAG,100.0,80.0
+2026-07-08 14:10:50,Test Product,eMAG,100.0,120.0
+2026-07-08 14:10:50,Test Product,eMAG,100.0,120.0
+2026-07-08 14:10:50,Test Product,eMAG,100.0,80.0
+2026-07-08 14:10:50,Test Product,eMAG,100.0,80.0
+2026-07-08 14:10:50,Test Product,eMAG,100.0,80.0
+2026-07-08 14:10:50,Test Product,eMAG,,100.0
+2026-07-08 14:10:50,Test Product,eMAG,,100.0
+2026-07-08 14:10:50,Test Product,eMAG,100.0,80.0
+2026-07-08 14:10:50,Test Product,eMAG,100.0,80.0
+2026-07-08 14:10:50,Test Product,Altex,100.0,80.0
+2026-07-08 14:10:50,Test Product,eMAG,100.0,80.0
+2026-07-08 14:10:50,Test Product,eMAG,100.0,80.0
+2026-07-08 14:10:50,Test Product,eMAG,100.0,80.0
+2026-07-08 14:10:50,Test Product,eMAG,100.0,80.0
+2026-07-08 14:10:50,Test Product,eMAG,100.0,80.0
+2026-07-08 14:13:20,Pampers Active Baby Pants Size 5 164buc,eMAG,279.98,219.99
+2026-07-08 14:13:21,Huggies Pure Wet Wipes 10x56buc,eMAG,49.99,52.99
+2026-07-08 14:13:22,Braun ThermoScan 7 IRT6520B,eMAG,300.93,277.45
+2026-07-08 14:16:40,Test Product,eMAG,100.0,80.0
+2026-07-08 14:16:40,Test Product,eMAG,100.0,120.0
+2026-07-08 14:16:40,Test Product,eMAG,100.0,120.0
+2026-07-08 14:16:40,Test Product,eMAG,100.0,80.0
+2026-07-08 14:16:40,Test Product,eMAG,100.0,80.0
+2026-07-08 14:16:40,Test Product,eMAG,100.0,80.0
+2026-07-08 14:16:40,Test Product,eMAG,,100.0
+2026-07-08 14:16:40,Test Product,eMAG,,100.0
+2026-07-08 14:16:40,Test Product,eMAG,100.0,80.0
+2026-07-08 14:16:40,Test Product,eMAG,100.0,80.0
+2026-07-08 14:16:40,Test Product,Altex,100.0,80.0
+2026-07-08 14:16:40,Test Product,eMAG,100.0,80.0
+2026-07-08 14:16:40,Test Product,eMAG,100.0,80.0
+2026-07-08 14:16:40,Test Product,eMAG,100.0,80.0
+2026-07-08 14:16:40,Test Product,eMAG,100.0,80.0
+2026-07-08 14:16:40,Test Product,eMAG,100.0,80.0
+2026-07-08 14:17:55,Test Product,eMAG,100.0,80.0
+2026-07-08 14:17:55,Test Product,eMAG,100.0,120.0
+2026-07-08 14:17:55,Test Product,eMAG,100.0,120.0
+2026-07-08 14:17:55,Test Product,eMAG,100.0,80.0
+2026-07-08 14:17:55,Test Product,eMAG,100.0,80.0
+2026-07-08 14:17:55,Test Product,eMAG,100.0,80.0
+2026-07-08 14:17:55,Test Product,eMAG,,100.0
+2026-07-08 14:17:55,Test Product,eMAG,,100.0
+2026-07-08 14:17:55,Test Product,eMAG,100.0,80.0
+2026-07-08 14:17:55,Test Product,eMAG,100.0,80.0
+2026-07-08 14:17:55,Test Product,Altex,100.0,80.0
+2026-07-08 14:17:55,Test Product,eMAG,100.0,80.0
+2026-07-08 14:17:55,Test Product,eMAG,100.0,80.0
+2026-07-08 14:17:55,Test Product,eMAG,100.0,80.0
+2026-07-08 14:17:55,Test Product,eMAG,100.0,80.0
+2026-07-08 14:17:55,Test Product,eMAG,100.0,80.0
+2026-07-08 14:20:12,Test Product,Altex,100.0,80.0
+2026-07-08 14:20:16,Test Product,eMAG,100.0,80.0
+2026-07-08 14:20:16,Test Product,eMAG,100.0,120.0
+2026-07-08 14:20:16,Test Product,eMAG,100.0,120.0
+2026-07-08 14:20:16,Test Product,eMAG,100.0,80.0
+2026-07-08 14:20:16,Test Product,eMAG,100.0,80.0
+2026-07-08 14:20:16,Test Product,eMAG,100.0,80.0
+2026-07-08 14:20:16,Test Product,eMAG,,100.0
+2026-07-08 14:20:16,Test Product,eMAG,,100.0
+2026-07-08 14:20:16,Test Product,eMAG,100.0,80.0
+2026-07-08 14:20:16,Test Product,eMAG,100.0,80.0
+2026-07-08 14:20:16,Test Product,Altex,100.0,80.0
+2026-07-08 14:20:16,Test Product,eMAG,100.0,80.0
+2026-07-08 14:20:16,Test Product,eMAG,100.0,80.0
+2026-07-08 14:20:16,Test Product,eMAG,100.0,80.0
+2026-07-08 14:20:16,Test Product,eMAG,100.0,80.0
+2026-07-08 14:20:16,Test Product,eMAG,100.0,80.0
+2026-07-08 14:20:34,Pampers Active Baby Pants Size 5 164buc,eMAG,279.98,219.99
+2026-07-08 14:20:35,Huggies Pure Wet Wipes 10x56buc,eMAG,49.99,52.99
+2026-07-08 14:20:36,Braun ThermoScan 7 IRT6520B,eMAG,300.93,277.45
+>>>>>>> 044140e (Remove Altex/Carrefour support; keep eMAG only; add navigation retries and user-agent; clean products/last_price data)
+=======
+2026-04-30 15:00:28,Test Product,eMAG,100.0,80.0
+2026-04-30 15:00:28,Test Product,eMAG,100.0,120.0
+2026-04-30 15:00:28,Test Product,eMAG,100.0,120.0
+2026-04-30 15:00:28,Test Product,eMAG,100.0,80.0
+2026-04-30 15:00:28,Test Product,eMAG,100.0,80.0
+2026-04-30 15:00:28,Test Product,eMAG,100.0,80.0
+2026-04-30 15:00:28,Test Product,eMAG,,100.0
+2026-04-30 15:00:28,Test Product,eMAG,,100.0
+2026-04-30 15:00:28,Test Product,eMAG,100.0,80.0
+2026-04-30 15:00:28,Test Product,eMAG,100.0,80.0
+2026-04-30 15:00:28,Test Product,Altex,100.0,80.0
+2026-04-30 15:00:28,Test Product,eMAG,100.0,80.0
+2026-04-30 15:00:28,Test Product,eMAG,100.0,80.0
+2026-04-30 15:00:28,Test Product,eMAG,100.0,80.0
+2026-04-30 15:00:28,Test Product,eMAG,100.0,80.0
+2026-04-30 15:00:28,Test Product,eMAG,100.0,80.0
+2026-04-30 15:07:56,Test Product,eMAG,100.0,80.0
+2026-04-30 15:07:56,Test Product,eMAG,100.0,120.0
+2026-04-30 15:07:56,Test Product,eMAG,100.0,120.0
+2026-04-30 15:07:56,Test Product,eMAG,100.0,80.0
+2026-04-30 15:07:56,Test Product,eMAG,100.0,80.0
+2026-04-30 15:07:56,Test Product,eMAG,100.0,80.0
+2026-04-30 15:07:56,Test Product,eMAG,,100.0
+2026-04-30 15:07:56,Test Product,eMAG,,100.0
+2026-04-30 15:07:56,Test Product,eMAG,100.0,80.0
+2026-04-30 15:07:56,Test Product,eMAG,100.0,80.0
+2026-04-30 15:07:56,Test Product,Altex,100.0,80.0
+2026-04-30 15:07:56,Test Product,eMAG,100.0,80.0
+2026-04-30 15:07:56,Test Product,eMAG,100.0,80.0
+2026-04-30 15:07:56,Test Product,eMAG,100.0,80.0
+2026-04-30 15:07:56,Test Product,eMAG,100.0,80.0
+2026-04-30 15:07:56,Test Product,eMAG,100.0,80.0
+2026-04-30 15:18:01,Test Product,eMAG,100.0,80.0
+2026-04-30 15:18:01,Test Product,eMAG,100.0,120.0
+2026-04-30 15:18:01,Test Product,eMAG,100.0,120.0
+2026-04-30 15:18:01,Test Product,eMAG,100.0,80.0
+2026-04-30 15:18:01,Test Product,eMAG,100.0,80.0
+2026-04-30 15:18:01,Test Product,eMAG,100.0,80.0
+2026-04-30 15:18:01,Test Product,eMAG,,100.0
+2026-04-30 15:18:01,Test Product,eMAG,,100.0
+2026-04-30 15:18:01,Test Product,eMAG,100.0,80.0
+2026-04-30 15:18:01,Test Product,eMAG,100.0,80.0
+2026-04-30 15:18:01,Test Product,Altex,100.0,80.0
+2026-04-30 15:18:01,Test Product,eMAG,100.0,80.0
+2026-04-30 15:18:01,Test Product,eMAG,100.0,80.0
+2026-04-30 15:18:01,Test Product,eMAG,100.0,80.0
+2026-04-30 15:18:01,Test Product,eMAG,100.0,80.0
+2026-04-30 15:18:01,Test Product,eMAG,100.0,80.0
+2026-07-08 14:09:07,Test Product,eMAG,100.0,80.0
+2026-07-08 14:09:07,Test Product,eMAG,100.0,120.0
+2026-07-08 14:09:07,Test Product,eMAG,100.0,120.0
+2026-07-08 14:09:07,Test Product,eMAG,100.0,80.0
+2026-07-08 14:09:07,Test Product,eMAG,100.0,80.0
+2026-07-08 14:09:07,Test Product,eMAG,100.0,80.0
+2026-07-08 14:09:07,Test Product,eMAG,,100.0
+2026-07-08 14:09:07,Test Product,eMAG,,100.0
+2026-07-08 14:09:07,Test Product,eMAG,100.0,80.0
+2026-07-08 14:09:07,Test Product,eMAG,100.0,80.0
+2026-07-08 14:09:07,Test Product,Altex,100.0,80.0
+2026-07-08 14:09:07,Test Product,eMAG,100.0,80.0
+2026-07-08 14:09:07,Test Product,eMAG,100.0,80.0
+2026-07-08 14:09:07,Test Product,eMAG,100.0,80.0
+2026-07-08 14:09:07,Test Product,eMAG,100.0,80.0
+2026-07-08 14:09:07,Test Product,eMAG,100.0,80.0
+2026-07-08 14:10:50,Test Product,eMAG,100.0,80.0
+2026-07-08 14:10:50,Test Product,eMAG,100.0,120.0
+2026-07-08 14:10:50,Test Product,eMAG,100.0,120.0
+2026-07-08 14:10:50,Test Product,eMAG,100.0,80.0
+2026-07-08 14:10:50,Test Product,eMAG,100.0,80.0
+2026-07-08 14:10:50,Test Product,eMAG,100.0,80.0
+2026-07-08 14:10:50,Test Product,eMAG,,100.0
+2026-07-08 14:10:50,Test Product,eMAG,,100.0
+2026-07-08 14:10:50,Test Product,eMAG,100.0,80.0
+2026-07-08 14:10:50,Test Product,eMAG,100.0,80.0
+2026-07-08 14:10:50,Test Product,Altex,100.0,80.0
+2026-07-08 14:10:50,Test Product,eMAG,100.0,80.0
+2026-07-08 14:10:50,Test Product,eMAG,100.0,80.0
+2026-07-08 14:10:50,Test Product,eMAG,100.0,80.0
+2026-07-08 14:10:50,Test Product,eMAG,100.0,80.0
+2026-07-08 14:10:50,Test Product,eMAG,100.0,80.0
+2026-07-08 14:13:20,Pampers Active Baby Pants Size 5 164buc,eMAG,279.98,219.99
+2026-07-08 14:13:21,Huggies Pure Wet Wipes 10x56buc,eMAG,49.99,52.99
+2026-07-08 14:13:22,Braun ThermoScan 7 IRT6520B,eMAG,300.93,277.45
+2026-07-08 14:16:40,Test Product,eMAG,100.0,80.0
+2026-07-08 14:16:40,Test Product,eMAG,100.0,120.0
+2026-07-08 14:16:40,Test Product,eMAG,100.0,120.0
+2026-07-08 14:16:40,Test Product,eMAG,100.0,80.0
+2026-07-08 14:16:40,Test Product,eMAG,100.0,80.0
+2026-07-08 14:16:40,Test Product,eMAG,100.0,80.0
+2026-07-08 14:16:40,Test Product,eMAG,,100.0
+2026-07-08 14:16:40,Test Product,eMAG,,100.0
+2026-07-08 14:16:40,Test Product,eMAG,100.0,80.0
+2026-07-08 14:16:40,Test Product,eMAG,100.0,80.0
+2026-07-08 14:16:40,Test Product,Altex,100.0,80.0
+2026-07-08 14:16:40,Test Product,eMAG,100.0,80.0
+2026-07-08 14:16:40,Test Product,eMAG,100.0,80.0
+2026-07-08 14:16:40,Test Product,eMAG,100.0,80.0
+2026-07-08 14:16:40,Test Product,eMAG,100.0,80.0
+2026-07-08 14:16:40,Test Product,eMAG,100.0,80.0
+2026-07-08 14:17:55,Test Product,eMAG,100.0,80.0
+2026-07-08 14:17:55,Test Product,eMAG,100.0,120.0
+2026-07-08 14:17:55,Test Product,eMAG,100.0,120.0
+2026-07-08 14:17:55,Test Product,eMAG,100.0,80.0
+2026-07-08 14:17:55,Test Product,eMAG,100.0,80.0
+2026-07-08 14:17:55,Test Product,eMAG,100.0,80.0
+2026-07-08 14:17:55,Test Product,eMAG,,100.0
+2026-07-08 14:17:55,Test Product,eMAG,,100.0
+2026-07-08 14:17:55,Test Product,eMAG,100.0,80.0
+2026-07-08 14:17:55,Test Product,eMAG,100.0,80.0
+2026-07-08 14:17:55,Test Product,Altex,100.0,80.0
+2026-07-08 14:17:55,Test Product,eMAG,100.0,80.0
+2026-07-08 14:17:55,Test Product,eMAG,100.0,80.0
+2026-07-08 14:17:55,Test Product,eMAG,100.0,80.0
+2026-07-08 14:17:55,Test Product,eMAG,100.0,80.0
+2026-07-08 14:17:55,Test Product,eMAG,100.0,80.0
+2026-07-08 14:20:12,Test Product,Altex,100.0,80.0
+2026-07-08 14:20:16,Test Product,eMAG,100.0,80.0
+2026-07-08 14:20:16,Test Product,eMAG,100.0,120.0
+2026-07-08 14:20:16,Test Product,eMAG,100.0,120.0
+2026-07-08 14:20:16,Test Product,eMAG,100.0,80.0
+2026-07-08 14:20:16,Test Product,eMAG,100.0,80.0
+2026-07-08 14:20:16,Test Product,eMAG,100.0,80.0
+2026-07-08 14:20:16,Test Product,eMAG,,100.0
+2026-07-08 14:20:16,Test Product,eMAG,,100.0
+2026-07-08 14:20:16,Test Product,eMAG,100.0,80.0
+2026-07-08 14:20:16,Test Product,eMAG,100.0,80.0
+2026-07-08 14:20:16,Test Product,Altex,100.0,80.0
+2026-07-08 14:20:16,Test Product,eMAG,100.0,80.0
+2026-07-08 14:20:16,Test Product,eMAG,100.0,80.0
+2026-07-08 14:20:16,Test Product,eMAG,100.0,80.0
+2026-07-08 14:20:16,Test Product,eMAG,100.0,80.0
+2026-07-08 14:20:16,Test Product,eMAG,100.0,80.0
+2026-07-08 14:20:34,Pampers Active Baby Pants Size 5 164buc,eMAG,279.98,219.99
+2026-07-08 14:20:35,Huggies Pure Wet Wipes 10x56buc,eMAG,49.99,52.99
+2026-07-08 14:20:36,Braun ThermoScan 7 IRT6520B,eMAG,300.93,277.45
+>>>>>>> 044140e (Remove Altex/Carrefour support; keep eMAG only; add navigation retries and user-agent; clean products/last_price data)
