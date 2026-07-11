@@ -276,3 +276,4 @@ timestamp,product,site,old_price,new_price
 >>>>>>> 044140e (Remove Altex/Carrefour support; keep eMAG only; add navigation retries and user-agent; clean products/last_price data)
 2026-07-09 14:35:47,Braun ThermoScan 7 IRT6520B,eMAG,277.45,269.99
 2026-07-10 02:06:17,Braun ThermoScan 7 IRT6520B,eMAG,269.99,276.09
+2026-07-11 01:52:56,Braun ThermoScan 7 IRT6520B,eMAG,276.09,347.27
